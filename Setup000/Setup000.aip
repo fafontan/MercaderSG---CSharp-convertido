@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="17.6" version="17.6" Modules="simple" RootPath="." Language="en" Id="{3D7EEB63-615C-4E95-BCFA-58567E6B016C}">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.CrystalReports.Engine.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.ClientDoc.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.CommLayer.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.CommonControls.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.CommonObjectModel.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.Controllers.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.CubeDefModel.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.DataDefModel.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.DataSetConversion.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.ObjectFactory.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.Prompting.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.ReportDefModel.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.XmlSerialize.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportSource.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.Shared.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.Windows.Forms.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Datos.dll" Value="..\Datos\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Datos.dll_1" Value="..\Datos\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Datos.dll_2" Value="..\Datos\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Datos.dll_3" Value="..\Negocios\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Datos.pdb" Value="..\Datos\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Datos.resources.dll" Value="..\Datos\bin\Debug\en-US"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Datos.resources.dll_1" Value="..\Datos\bin\Debug\es-AR"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Datos.xml" Value="..\Datos\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Entidades.dll" Value="..\Entidades\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Entidades.dll_1" Value="..\Entidades\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Entidades.dll_2" Value="..\Entidades\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Entidades.dll_3" Value="..\Entidades\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Entidades.dll_4" Value="..\Entidades\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Entidades.dll_5" Value="..\Entidades\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Entidades.pdb" Value="..\Entidades\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Entidades.xml" Value="..\Entidades\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_EnvDTE.dll" Value="..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PublicAssemblies"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Excepciones.dll" Value="..\Excepciones\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Excepciones.dll_1" Value="..\Excepciones\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Excepciones.dll_2" Value="..\Excepciones\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Excepciones.dll_3" Value="..\Excepciones\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Excepciones.dll_4" Value="..\Excepciones\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Excepciones.pdb" Value="..\Excepciones\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Excepciones.xml" Value="..\Excepciones\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_FlashControlV71.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Ionic.Zip.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MercaderSG.exe" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MercaderSG.exe.config" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MercaderSG.pdb" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MercaderSG.resources.dll" Value="..\MercaderSG\bin\Debug\es-AR"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MercaderSG.resources.dll_1" Value="..\MercaderSG\bin\Debug\en-US"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MercaderSG.xml" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.MSXML.dll" Value="..\..\..\..\..\Program Files (x86)\Microsoft.NET\Primary Interop Assemblies"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.ReportViewer.Common.dll" Value="..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.ReportViewer.DataVisualization.dll" Value="..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.ReportViewer.Design.dll" Value="..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.ReportViewer.ProcessingObjectModel.dll" Value="..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.ReportViewer.WinForms.dll" Value="..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Types.dll" Value="..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Negocios.dll" Value="..\Negocios\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Negocios.dll_1" Value="..\Negocios\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Negocios.pdb" Value="..\Negocios\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Negocios.resources.dll" Value="..\Negocios\bin\Debug\es-AR"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Negocios.resources.dll_1" Value="..\Negocios\bin\Debug\en-US"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Negocios.xml" Value="..\Negocios\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Servicios.dll" Value="..\Servicios\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Servicios.dll_1" Value="..\Servicios\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Servicios.dll_2" Value="..\Servicios\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Servicios.pdb" Value="..\Servicios\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Servicios.resources.dll" Value="..\Servicios\bin\Debug\en-US"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Servicios.resources.dll_1" Value="..\Servicios\bin\Debug\es-AR"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Servicios.xml" Value="..\Servicios\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ShockwaveFlashObjects.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_SqlServerSpatial140.dll" Value="..\MercaderSG\bin\Debug\SqlServerTypes\x64"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_SqlServerSpatial140.dll_1" Value="..\MercaderSG\bin\Debug\SqlServerTypes\x86"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_msvcr120.dll" Value="..\MercaderSG\bin\Debug\SqlServerTypes\x64"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_msvcr120.dll_1" Value="..\MercaderSG\bin\Debug\SqlServerTypes\x86"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_stdole.dll" Value="..\MercaderSG\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.CrystalReports.Engine.dll" Value="CrystalDecisions.CrystalReports.Engine.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.ClientDoc.dll" Value="CrystalDecisions.ReportAppServer.ClientDoc.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.CommLayer.dll" Value="CrystalDecisions.ReportAppServer.CommLayer.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.CommonControls.dll" Value="CrystalDecisions.ReportAppServer.CommonControls.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.CommonObjectModel.dll" Value="CrystalDecisions.ReportAppServer.CommonObjectModel.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.Controllers.dll" Value="CrystalDecisions.ReportAppServer.Controllers.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.CubeDefModel.dll" Value="CrystalDecisions.ReportAppServer.CubeDefModel.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.DataDefModel.dll" Value="CrystalDecisions.ReportAppServer.DataDefModel.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.DataSetConversion.dll" Value="CrystalDecisions.ReportAppServer.DataSetConversion.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.ObjectFactory.dll" Value="CrystalDecisions.ReportAppServer.ObjectFactory.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.Prompting.dll" Value="CrystalDecisions.ReportAppServer.Prompting.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.ReportDefModel.dll" Value="CrystalDecisions.ReportAppServer.ReportDefModel.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.XmlSerialize.dll" Value="CrystalDecisions.ReportAppServer.XmlSerialize.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportSource.dll" Value="CrystalDecisions.ReportSource.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.Shared.dll" Value="CrystalDecisions.Shared.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.Windows.Forms.dll" Value="CrystalDecisions.Windows.Forms.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Datos.dll" Value="Datos.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Datos.dll_1" Value="Datos.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Datos.dll_2" Value="Datos.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Datos.dll_3" Value="Datos.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Datos.pdb" Value="Datos.pdb"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Datos.resources.dll" Value="Datos.resources.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Datos.resources.dll_1" Value="Datos.resources.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Datos.xml" Value="Datos.xml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Entidades.dll" Value="Entidades.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Entidades.dll_1" Value="Entidades.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Entidades.dll_2" Value="Entidades.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Entidades.dll_3" Value="Entidades.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Entidades.dll_4" Value="Entidades.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Entidades.dll_5" Value="Entidades.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Entidades.pdb" Value="Entidades.pdb"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Entidades.xml" Value="Entidades.xml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_EnvDTE.dll" Value="EnvDTE.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Excepciones.dll" Value="Excepciones.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Excepciones.dll_1" Value="Excepciones.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Excepciones.dll_2" Value="Excepciones.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Excepciones.dll_3" Value="Excepciones.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Excepciones.dll_4" Value="Excepciones.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Excepciones.pdb" Value="Excepciones.pdb"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Excepciones.xml" Value="Excepciones.xml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_FlashControlV71.dll" Value="FlashControlV71.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Ionic.Zip.dll" Value="Ionic.Zip.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MercaderSG.exe" Value="MercaderSG.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MercaderSG.exe.config" Value="MercaderSG.exe.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MercaderSG.pdb" Value="MercaderSG.pdb"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MercaderSG.resources.dll" Value="MercaderSG.resources.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MercaderSG.resources.dll_1" Value="MercaderSG.resources.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MercaderSG.xml" Value="MercaderSG.xml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.MSXML.dll" Value="Microsoft.MSXML.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ReportViewer.Common.dll" Value="Microsoft.ReportViewer.Common.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ReportViewer.DataVisualization.dll" Value="Microsoft.ReportViewer.DataVisualization.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ReportViewer.Design.dll" Value="Microsoft.ReportViewer.Design.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ReportViewer.ProcessingObjectModel.dll" Value="Microsoft.ReportViewer.ProcessingObjectModel.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ReportViewer.WinForms.dll" Value="Microsoft.ReportViewer.WinForms.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Types.dll" Value="Microsoft.SqlServer.Types.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Negocios.dll" Value="Negocios.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Negocios.dll_1" Value="Negocios.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Negocios.pdb" Value="Negocios.pdb"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Negocios.resources.dll" Value="Negocios.resources.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Negocios.resources.dll_1" Value="Negocios.resources.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Negocios.xml" Value="Negocios.xml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Servicios.dll" Value="Servicios.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Servicios.dll_1" Value="Servicios.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Servicios.dll_2" Value="Servicios.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Servicios.pdb" Value="Servicios.pdb"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Servicios.resources.dll" Value="Servicios.resources.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Servicios.resources.dll_1" Value="Servicios.resources.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Servicios.xml" Value="Servicios.xml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ShockwaveFlashObjects.dll" Value="ShockwaveFlashObjects.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_SqlServerSpatial140.dll" Value="SqlServerSpatial140.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_SqlServerSpatial140.dll_1" Value="SqlServerSpatial140.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_msvcr120.dll" Value="msvcr120.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_msvcr120.dll_1" Value="msvcr120.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_stdole.dll" Value="stdole.dll"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="Manufacturer" Value="Your Company"/>
+    <ROW Property="ProductCode" Value="1033:{86D225A2-A6D8-4AAB-9664-6705FEFDA5A6} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Your Application"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{6B6C37DC-8F4E-4E94-99B4-F24C13FD2D99}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="Datos_Dir" Directory_Parent="APPDIR" DefaultDir="Datos"/>
+    <ROW Directory="Entidades_Dir" Directory_Parent="APPDIR" DefaultDir="ENTIDA~1|Entidades"/>
+    <ROW Directory="Excepciones_Dir" Directory_Parent="APPDIR" DefaultDir="EXCEPC~1|Excepciones"/>
+    <ROW Directory="MercaderSG_Dir" Directory_Parent="APPDIR" DefaultDir="MERCAD~1|MercaderSG"/>
+    <ROW Directory="Negocios_Dir" Directory_Parent="APPDIR" DefaultDir="Negocios"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="Servicios_Dir" Directory_Parent="APPDIR" DefaultDir="SERVIC~1|Servicios"/>
+    <ROW Directory="SqlServerTypes_Dir" Directory_Parent="MercaderSG_Dir" DefaultDir="SQLSER~1|SqlServerTypes"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="enUS_1_Dir" Directory_Parent="Negocios_Dir" DefaultDir="en-US"/>
+    <ROW Directory="enUS_2_Dir" Directory_Parent="Servicios_Dir" DefaultDir="en-US"/>
+    <ROW Directory="enUS_3_Dir" Directory_Parent="MercaderSG_Dir" DefaultDir="en-US"/>
+    <ROW Directory="enUS_Dir" Directory_Parent="Datos_Dir" DefaultDir="en-US"/>
+    <ROW Directory="esAR_1_Dir" Directory_Parent="Negocios_Dir" DefaultDir="es-AR"/>
+    <ROW Directory="esAR_2_Dir" Directory_Parent="Servicios_Dir" DefaultDir="es-AR"/>
+    <ROW Directory="esAR_3_Dir" Directory_Parent="MercaderSG_Dir" DefaultDir="es-AR"/>
+    <ROW Directory="esAR_Dir" Directory_Parent="Datos_Dir" DefaultDir="es-AR"/>
+    <ROW Directory="x64_Dir" Directory_Parent="SqlServerTypes_Dir" DefaultDir="x64"/>
+    <ROW Directory="x86_Dir" Directory_Parent="SqlServerTypes_Dir" DefaultDir="x86"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="APPDIR" ComponentId="{1FD5D12F-96B1-46B9-9BBB-3E34524A157B}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="Datos_DocumentationOutput" ComponentId="{AA95AC2F-45FE-4CC3-B1DC-663549F9280D}" Directory_="Datos_Dir" Attributes="0" KeyPath="Datos.xml" Type="0"/>
+    <ROW Component="Datos_LocalizedResourcesOutput_enUS" ComponentId="{9BAADA0D-B182-48A5-A483-4AF618DF9438}" Directory_="enUS_Dir" Attributes="0" KeyPath="Datos.resources.dll"/>
+    <ROW Component="Datos_LocalizedResourcesOutput_esAR" ComponentId="{2F641F35-E1D4-4A53-8440-0AD3E235DCB9}" Directory_="esAR_Dir" Attributes="0" KeyPath="Datos.resources.dll_1"/>
+    <ROW Component="Datos_PrimaryOutput" ComponentId="{3AA25636-5FD7-45F8-9C78-565E846A5B16}" Directory_="Datos_Dir" Attributes="0" KeyPath="Datos.dll"/>
+    <ROW Component="Datos_References" ComponentId="{6123FE28-EE06-4193-99AF-4E39C9BE5107}" Directory_="Datos_Dir" Attributes="0" KeyPath="Excepciones.dll"/>
+    <ROW Component="Datos_SymbolsOutput" ComponentId="{B9D5148D-8F61-4A78-8BE7-B48B46DB3A6C}" Directory_="Datos_Dir" Attributes="0" KeyPath="Datos.pdb"/>
+    <ROW Component="Entidades_DocumentationOutput" ComponentId="{F0732979-BBA1-4FE0-AF94-405568DE09C1}" Directory_="Entidades_Dir" Attributes="0" KeyPath="Entidades.xml" Type="0"/>
+    <ROW Component="Entidades_PrimaryOutput" ComponentId="{7DAC7C40-EE8F-4DFA-87FF-212D5505D087}" Directory_="Entidades_Dir" Attributes="0" KeyPath="Entidades.dll_1"/>
+    <ROW Component="Entidades_SymbolsOutput" ComponentId="{07202FA0-76CC-4A19-A864-A893E598B0C0}" Directory_="Entidades_Dir" Attributes="0" KeyPath="Entidades.pdb"/>
+    <ROW Component="Excepciones_DocumentationOutput" ComponentId="{7DC4827D-E800-4EB6-9469-222A2518E663}" Directory_="Excepciones_Dir" Attributes="0" KeyPath="Excepciones.xml" Type="0"/>
+    <ROW Component="Excepciones_PrimaryOutput" ComponentId="{70CC6C76-61FD-4ECE-A1DC-702235F08789}" Directory_="Excepciones_Dir" Attributes="0" KeyPath="Excepciones.dll_1"/>
+    <ROW Component="Excepciones_References" ComponentId="{B96B7488-AE84-4E93-9E11-34EAE2D19B7E}" Directory_="Excepciones_Dir" Attributes="0" KeyPath="Entidades.dll_2"/>
+    <ROW Component="Excepciones_SymbolsOutput" ComponentId="{1998433D-55B1-4C35-B9D2-68E8A32FB9EE}" Directory_="Excepciones_Dir" Attributes="0" KeyPath="Excepciones.pdb"/>
+    <ROW Component="MercaderSG_ContentOutput_SqlServerTypes_x64" ComponentId="{715C94DC-A1C5-4DE2-8BC3-F5043A7668B9}" Directory_="x64_Dir" Attributes="256" KeyPath="SqlServerSpatial140.dll"/>
+    <ROW Component="MercaderSG_ContentOutput_SqlServerTypes_x86" ComponentId="{23B8EA44-71A2-4585-8F0B-C8E928CCFEE7}" Directory_="x86_Dir" Attributes="0" KeyPath="SqlServerSpatial140.dll_1"/>
+    <ROW Component="MercaderSG_DocumentationOutput" ComponentId="{6DDDEFD3-A95C-4B12-B015-366940C7D109}" Directory_="MercaderSG_Dir" Attributes="0" KeyPath="MercaderSG.xml" Type="0"/>
+    <ROW Component="MercaderSG_LocalizedResourcesOutput_enUS" ComponentId="{24205D23-3F9F-4CA6-B003-3A75FC71FEC7}" Directory_="enUS_3_Dir" Attributes="0" KeyPath="MercaderSG.resources.dll_1"/>
+    <ROW Component="MercaderSG_LocalizedResourcesOutput_esAR" ComponentId="{D7062EF2-520F-4A4D-9410-0F7ACF953EF5}" Directory_="esAR_3_Dir" Attributes="0" KeyPath="MercaderSG.resources.dll"/>
+    <ROW Component="MercaderSG_PrimaryOutput" ComponentId="{86B9CC4B-A05E-4F08-898E-AF79E7302CBB}" Directory_="MercaderSG_Dir" Attributes="0" KeyPath="MercaderSG.exe"/>
+    <ROW Component="MercaderSG_References" ComponentId="{FED33741-49DD-4698-9D40-EEB48A8CD821}" Directory_="MercaderSG_Dir" Attributes="0" KeyPath="Microsoft.MSXML.dll"/>
+    <ROW Component="MercaderSG_SymbolsOutput" ComponentId="{44430DD5-1B46-40B9-9190-55E8F3BEA8EF}" Directory_="MercaderSG_Dir" Attributes="0" KeyPath="MercaderSG.pdb"/>
+    <ROW Component="Negocios_DocumentationOutput" ComponentId="{06D5BEA4-BC42-44D6-BA84-E4F4711322AF}" Directory_="Negocios_Dir" Attributes="0" KeyPath="Negocios.xml" Type="0"/>
+    <ROW Component="Negocios_LocalizedResourcesOutput_enUS" ComponentId="{6A7261FC-C349-4BC2-8C14-439756947062}" Directory_="enUS_1_Dir" Attributes="0" KeyPath="Negocios.resources.dll_1"/>
+    <ROW Component="Negocios_LocalizedResourcesOutput_esAR" ComponentId="{4FA334B6-DEB9-47C0-9BF4-5A8BCFD13302}" Directory_="esAR_1_Dir" Attributes="0" KeyPath="Negocios.resources.dll"/>
+    <ROW Component="Negocios_PrimaryOutput" ComponentId="{2C40E655-9C5B-4AEC-B59D-AD9F2F187098}" Directory_="Negocios_Dir" Attributes="0" KeyPath="Negocios.dll"/>
+    <ROW Component="Negocios_References" ComponentId="{F297DA6D-AC79-4F88-AD9B-1E6ED07F910C}" Directory_="Negocios_Dir" Attributes="0" KeyPath="Servicios.dll"/>
+    <ROW Component="Negocios_SymbolsOutput" ComponentId="{9154D0B8-C18A-4E77-82F0-043E56F32993}" Directory_="Negocios_Dir" Attributes="0" KeyPath="Negocios.pdb"/>
+    <ROW Component="ProductInformation" ComponentId="{BC75B4F2-4E92-4984-A35E-0969E55AE4BC}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{4FC9BCB7-9897-475E-A611-1273E948DB1C}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="Servicios_DocumentationOutput" ComponentId="{A4341914-E77A-40AF-A782-2EAF0EBFA8DC}" Directory_="Servicios_Dir" Attributes="0" KeyPath="Servicios.xml" Type="0"/>
+    <ROW Component="Servicios_LocalizedResourcesOutput_enUS" ComponentId="{058531CF-DC46-40ED-AD78-6B531ADF4338}" Directory_="enUS_2_Dir" Attributes="0" KeyPath="Servicios.resources.dll"/>
+    <ROW Component="Servicios_LocalizedResourcesOutput_esAR" ComponentId="{38D986BA-59AC-4822-A282-95D269843237}" Directory_="esAR_2_Dir" Attributes="0" KeyPath="Servicios.resources.dll_1"/>
+    <ROW Component="Servicios_PrimaryOutput" ComponentId="{3993560B-D953-4BB9-9B93-8E496897A5BA}" Directory_="Servicios_Dir" Attributes="0" KeyPath="Servicios.dll_1"/>
+    <ROW Component="Servicios_References" ComponentId="{3000DAAF-1047-48F0-AAD0-32E94E248671}" Directory_="Servicios_Dir" Attributes="0" KeyPath="Excepciones.dll_3"/>
+    <ROW Component="Servicios_SymbolsOutput" ComponentId="{81D79229-843E-48AC-97B7-AA1055CEC488}" Directory_="Servicios_Dir" Attributes="0" KeyPath="Servicios.pdb"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="Datos.dll" Component_="Datos_PrimaryOutput" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Datos.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Datos.dll&gt;" SelfReg="false"/>
+    <ROW File="Entidades.dll" Component_="Datos_References" FileName="ENTIDA~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Entidades.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Entidades.dll&gt;" SelfReg="false"/>
+    <ROW File="Excepciones.dll" Component_="Datos_References" FileName="EXCEPC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Excepciones.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Excepciones.dll&gt;" SelfReg="false"/>
+    <ROW File="Datos.xml" Component_="Datos_DocumentationOutput" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Datos.xml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Datos.xml&gt;" SelfReg="false"/>
+    <ROW File="Datos.resources.dll" Component_="Datos_LocalizedResourcesOutput_enUS" FileName="DATOSR~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Datos.resources.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Datos.resources.dll&gt;" SelfReg="false"/>
+    <ROW File="Datos.resources.dll_1" Component_="Datos_LocalizedResourcesOutput_esAR" FileName="DATOSR~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Datos.resources.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Datos.resources.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Datos.pdb" Component_="Datos_SymbolsOutput" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Datos.pdb]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Datos.pdb&gt;" SelfReg="false"/>
+    <ROW File="Entidades.dll_1" Component_="Entidades_PrimaryOutput" FileName="ENTIDA~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Entidades.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Entidades.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Entidades.xml" Component_="Entidades_DocumentationOutput" FileName="ENTIDA~2.XML|[|AI_PROPPATH_FILENAME_PERBUILD_Entidades.xml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Entidades.xml&gt;" SelfReg="false"/>
+    <ROW File="Entidades.pdb" Component_="Entidades_SymbolsOutput" FileName="ENTIDA~2.PDB|[|AI_PROPPATH_FILENAME_PERBUILD_Entidades.pdb]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Entidades.pdb&gt;" SelfReg="false"/>
+    <ROW File="Excepciones.dll_1" Component_="Excepciones_PrimaryOutput" FileName="EXCEPC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Excepciones.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Excepciones.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Entidades.dll_2" Component_="Excepciones_References" FileName="ENTIDA~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Entidades.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Entidades.dll_2&gt;" SelfReg="false"/>
+    <ROW File="Excepciones.xml" Component_="Excepciones_DocumentationOutput" FileName="EXCEPC~2.XML|[|AI_PROPPATH_FILENAME_PERBUILD_Excepciones.xml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Excepciones.xml&gt;" SelfReg="false"/>
+    <ROW File="Excepciones.pdb" Component_="Excepciones_SymbolsOutput" FileName="EXCEPC~2.PDB|[|AI_PROPPATH_FILENAME_PERBUILD_Excepciones.pdb]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Excepciones.pdb&gt;" SelfReg="false"/>
+    <ROW File="Negocios.dll" Component_="Negocios_PrimaryOutput" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Negocios.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Negocios.dll&gt;" SelfReg="false"/>
+    <ROW File="Datos.dll_1" Component_="Negocios_References" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Datos.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Datos.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Entidades.dll_3" Component_="Negocios_References" FileName="ENTIDA~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Entidades.dll_3]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Entidades.dll_3&gt;" SelfReg="false"/>
+    <ROW File="Excepciones.dll_2" Component_="Negocios_References" FileName="EXCEPC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Excepciones.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Excepciones.dll_2&gt;" SelfReg="false"/>
+    <ROW File="Servicios.dll" Component_="Negocios_References" FileName="SERVIC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Servicios.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Servicios.dll&gt;" SelfReg="false"/>
+    <ROW File="Negocios.xml" Component_="Negocios_DocumentationOutput" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Negocios.xml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Negocios.xml&gt;" SelfReg="false"/>
+    <ROW File="Negocios.resources.dll" Component_="Negocios_LocalizedResourcesOutput_esAR" FileName="NEGOCI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Negocios.resources.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Negocios.resources.dll&gt;" SelfReg="false"/>
+    <ROW File="Negocios.resources.dll_1" Component_="Negocios_LocalizedResourcesOutput_enUS" FileName="NEGOCI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Negocios.resources.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Negocios.resources.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Negocios.pdb" Component_="Negocios_SymbolsOutput" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Negocios.pdb]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Negocios.pdb&gt;" SelfReg="false"/>
+    <ROW File="Servicios.dll_1" Component_="Servicios_PrimaryOutput" FileName="SERVIC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Servicios.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Servicios.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Datos.dll_2" Component_="Servicios_References" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Datos.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Datos.dll_2&gt;" SelfReg="false"/>
+    <ROW File="Entidades.dll_4" Component_="Servicios_References" FileName="ENTIDA~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Entidades.dll_4]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Entidades.dll_4&gt;" SelfReg="false"/>
+    <ROW File="Excepciones.dll_3" Component_="Servicios_References" FileName="EXCEPC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Excepciones.dll_3]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Excepciones.dll_3&gt;" SelfReg="false"/>
+    <ROW File="Servicios.xml" Component_="Servicios_DocumentationOutput" FileName="SERVIC~2.XML|[|AI_PROPPATH_FILENAME_PERBUILD_Servicios.xml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Servicios.xml&gt;" SelfReg="false"/>
+    <ROW File="Servicios.resources.dll" Component_="Servicios_LocalizedResourcesOutput_enUS" FileName="SERVIC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Servicios.resources.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Servicios.resources.dll&gt;" SelfReg="false"/>
+    <ROW File="Servicios.resources.dll_1" Component_="Servicios_LocalizedResourcesOutput_esAR" FileName="SERVIC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Servicios.resources.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Servicios.resources.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Servicios.pdb" Component_="Servicios_SymbolsOutput" FileName="SERVIC~2.PDB|[|AI_PROPPATH_FILENAME_PERBUILD_Servicios.pdb]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Servicios.pdb&gt;" SelfReg="false"/>
+    <ROW File="MercaderSG.exe" Component_="MercaderSG_PrimaryOutput" FileName="MERCAD~2.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_MercaderSG.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MercaderSG.exe&gt;" SelfReg="false" DigSign="true"/>
+    <ROW File="MercaderSG.exe.config" Component_="MercaderSG_PrimaryOutput" FileName="MERCAD~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_MercaderSG.exe.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MercaderSG.exe.config&gt;" SelfReg="false"/>
+    <ROW File="CrystalDecisions.CrystalReports.Engine.dll" Component_="MercaderSG_References" FileName="CRYSTA~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.CrystalReports.Engine.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CrystalDecisions.CrystalReports.Engine.dll&gt;" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportSource.dll" Component_="MercaderSG_References" FileName="CRYSTA~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportSource.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CrystalDecisions.ReportSource.dll&gt;" SelfReg="false"/>
+    <ROW File="CrystalDecisions.Shared.dll" Component_="MercaderSG_References" FileName="CRYSTA~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.Shared.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CrystalDecisions.Shared.dll&gt;" SelfReg="false"/>
+    <ROW File="CrystalDecisions.Windows.Forms.dll" Component_="MercaderSG_References" FileName="CRYSTA~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.Windows.Forms.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CrystalDecisions.Windows.Forms.dll&gt;" SelfReg="false"/>
+    <ROW File="Entidades.dll_5" Component_="MercaderSG_References" FileName="ENTIDA~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Entidades.dll_5]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Entidades.dll_5&gt;" SelfReg="false"/>
+    <ROW File="Excepciones.dll_4" Component_="MercaderSG_References" FileName="EXCEPC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Excepciones.dll_4]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Excepciones.dll_4&gt;" SelfReg="false"/>
+    <ROW File="FlashControlV71.dll" Component_="MercaderSG_References" FileName="FLASHC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_FlashControlV71.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_FlashControlV71.dll&gt;" SelfReg="false"/>
+    <ROW File="Ionic.Zip.dll" Component_="MercaderSG_References" FileName="IONICZ~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Ionic.Zip.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Ionic.Zip.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Common.dll" Component_="MercaderSG_References" FileName="MICROS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ReportViewer.Common.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.ReportViewer.Common.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.DataVisualization.dll" Component_="MercaderSG_References" FileName="MICROS~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ReportViewer.DataVisualization.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.ReportViewer.DataVisualization.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.Design.dll" Component_="MercaderSG_References" FileName="MICROS~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ReportViewer.Design.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.ReportViewer.Design.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.ProcessingObjectModel.dll" Component_="MercaderSG_References" FileName="MICROS~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ReportViewer.ProcessingObjectModel.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.ReportViewer.ProcessingObjectModel.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.ReportViewer.WinForms.dll" Component_="MercaderSG_References" FileName="MICROS~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ReportViewer.WinForms.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.ReportViewer.WinForms.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.SqlServer.Types.dll" Component_="MercaderSG_References" FileName="MICROS~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Types.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.SqlServer.Types.dll&gt;" SelfReg="false"/>
+    <ROW File="Negocios.dll_1" Component_="MercaderSG_References" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Negocios.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Negocios.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Servicios.dll_2" Component_="MercaderSG_References" FileName="SERVIC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Servicios.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Servicios.dll_2&gt;" SelfReg="false"/>
+    <ROW File="Datos.dll_3" Component_="MercaderSG_References" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Datos.dll_3]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Datos.dll_3&gt;" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.DataDefModel.dll" Component_="MercaderSG_References" FileName="CRYSTA~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.DataDefModel.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.DataDefModel.dll&gt;" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.ClientDoc.dll" Component_="MercaderSG_References" FileName="CRYSTA~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.ClientDoc.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.ClientDoc.dll&gt;" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.ReportDefModel.dll" Component_="MercaderSG_References" FileName="CRYSTA~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.ReportDefModel.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.ReportDefModel.dll&gt;" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.Controllers.dll" Component_="MercaderSG_References" FileName="CRYSTA~9.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.Controllers.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.Controllers.dll&gt;" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.CommLayer.dll" Component_="MercaderSG_References" FileName="CRYST~10.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.CommLayer.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.CommLayer.dll&gt;" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.DataSetConversion.dll" Component_="MercaderSG_References" FileName="CRYST~11.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.DataSetConversion.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.DataSetConversion.dll&gt;" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.Prompting.dll" Component_="MercaderSG_References" FileName="CRYST~12.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.Prompting.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.Prompting.dll&gt;" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.XmlSerialize.dll" Component_="MercaderSG_References" FileName="CRYST~13.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.XmlSerialize.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.XmlSerialize.dll&gt;" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.CubeDefModel.dll" Component_="MercaderSG_References" FileName="CRYST~14.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.CubeDefModel.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.CubeDefModel.dll&gt;" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.ObjectFactory.dll" Component_="MercaderSG_References" FileName="CRYST~15.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.ObjectFactory.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.ObjectFactory.dll&gt;" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.CommonObjectModel.dll" Component_="MercaderSG_References" FileName="CRYST~16.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.CommonObjectModel.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.CommonObjectModel.dll&gt;" SelfReg="false"/>
+    <ROW File="ShockwaveFlashObjects.dll" Component_="MercaderSG_References" FileName="SHOCKW~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_ShockwaveFlashObjects.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ShockwaveFlashObjects.dll&gt;" SelfReg="false"/>
+    <ROW File="EnvDTE.dll" Component_="MercaderSG_References" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_EnvDTE.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_EnvDTE.dll&gt;" SelfReg="false"/>
+    <ROW File="CrystalDecisions.ReportAppServer.CommonControls.dll" Component_="MercaderSG_References" FileName="CRYST~17.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.CommonControls.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.CommonControls.dll&gt;" SelfReg="false"/>
+    <ROW File="stdole.dll" Component_="MercaderSG_References" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_stdole.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_stdole.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.MSXML.dll" Component_="MercaderSG_References" FileName="MICROS~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.MSXML.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.MSXML.dll&gt;" SelfReg="false"/>
+    <ROW File="msvcr120.dll" Component_="MercaderSG_ContentOutput_SqlServerTypes_x64" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_msvcr120.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_msvcr120.dll&gt;" SelfReg="false"/>
+    <ROW File="SqlServerSpatial140.dll" Component_="MercaderSG_ContentOutput_SqlServerTypes_x64" FileName="SQLSER~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_SqlServerSpatial140.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_SqlServerSpatial140.dll&gt;" SelfReg="false"/>
+    <ROW File="msvcr120.dll_1" Component_="MercaderSG_ContentOutput_SqlServerTypes_x86" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_msvcr120.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_msvcr120.dll_1&gt;" SelfReg="false"/>
+    <ROW File="SqlServerSpatial140.dll_1" Component_="MercaderSG_ContentOutput_SqlServerTypes_x86" FileName="SQLSER~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_SqlServerSpatial140.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_SqlServerSpatial140.dll_1&gt;" SelfReg="false"/>
+    <ROW File="MercaderSG.xml" Component_="MercaderSG_DocumentationOutput" FileName="MERCAD~2.XML|[|AI_PROPPATH_FILENAME_PERBUILD_MercaderSG.xml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MercaderSG.xml&gt;" SelfReg="false"/>
+    <ROW File="MercaderSG.resources.dll" Component_="MercaderSG_LocalizedResourcesOutput_esAR" FileName="MERCAD~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MercaderSG.resources.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MercaderSG.resources.dll&gt;" SelfReg="false"/>
+    <ROW File="MercaderSG.resources.dll_1" Component_="MercaderSG_LocalizedResourcesOutput_enUS" FileName="MERCAD~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MercaderSG.resources.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MercaderSG.resources.dll_1&gt;" SelfReg="false"/>
+    <ROW File="MercaderSG.pdb" Component_="MercaderSG_SymbolsOutput" FileName="MERCAD~2.PDB|[|AI_PROPPATH_FILENAME_PERBUILD_MercaderSG.pdb]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MercaderSG.pdb&gt;" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.AppPathsComponent">
+    <ROW Name="AI_APPPATH_PERBUILD_CrystalDecisions.CrystalReports.Engine.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.CrystalReports.Engine.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.CrystalReports.Engine.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.ClientDoc.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.ClientDoc.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.ClientDoc.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.CommLayer.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.CommLayer.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.CommLayer.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.CommonControls.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.CommonControls.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.CommonControls.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.CommonObjectModel.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.CommonObjectModel.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.CommonObjectModel.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.Controllers.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.Controllers.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.Controllers.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.CubeDefModel.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.CubeDefModel.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.CubeDefModel.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.DataDefModel.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.DataDefModel.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.DataDefModel.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.DataSetConversion.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.DataSetConversion.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.DataSetConversion.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.ObjectFactory.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.ObjectFactory.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.ObjectFactory.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.Prompting.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.Prompting.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.Prompting.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.ReportDefModel.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.ReportDefModel.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.ReportDefModel.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_CrystalDecisions.ReportAppServer.XmlSerialize.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportAppServer.XmlSerialize.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportAppServer.XmlSerialize.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_CrystalDecisions.ReportSource.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.ReportSource.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.ReportSource.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_CrystalDecisions.Shared.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.Shared.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.Shared.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_CrystalDecisions.Windows.Forms.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_CrystalDecisions.Windows.Forms.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_CrystalDecisions.Windows.Forms.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Datos.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Datos.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Datos.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Datos.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Datos.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Datos.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Datos.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_Datos.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_Datos.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Datos.dll_3" Path="[|AI_PROPPATH_DIR_PERBUILD_Datos.dll_3]\[|AI_PROPPATH_FILENAME_PERBUILD_Datos.dll_3]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Datos.pdb" Path="[|AI_PROPPATH_DIR_PERBUILD_Datos.pdb]\[|AI_PROPPATH_FILENAME_PERBUILD_Datos.pdb]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Datos.resources.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Datos.resources.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Datos.resources.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Datos.resources.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Datos.resources.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Datos.resources.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Datos.xml" Path="[|AI_PROPPATH_DIR_PERBUILD_Datos.xml]\[|AI_PROPPATH_FILENAME_PERBUILD_Datos.xml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Entidades.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Entidades.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Entidades.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Entidades.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Entidades.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Entidades.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Entidades.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_Entidades.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_Entidades.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Entidades.dll_3" Path="[|AI_PROPPATH_DIR_PERBUILD_Entidades.dll_3]\[|AI_PROPPATH_FILENAME_PERBUILD_Entidades.dll_3]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Entidades.dll_4" Path="[|AI_PROPPATH_DIR_PERBUILD_Entidades.dll_4]\[|AI_PROPPATH_FILENAME_PERBUILD_Entidades.dll_4]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Entidades.dll_5" Path="[|AI_PROPPATH_DIR_PERBUILD_Entidades.dll_5]\[|AI_PROPPATH_FILENAME_PERBUILD_Entidades.dll_5]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Entidades.pdb" Path="[|AI_PROPPATH_DIR_PERBUILD_Entidades.pdb]\[|AI_PROPPATH_FILENAME_PERBUILD_Entidades.pdb]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Entidades.xml" Path="[|AI_PROPPATH_DIR_PERBUILD_Entidades.xml]\[|AI_PROPPATH_FILENAME_PERBUILD_Entidades.xml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_EnvDTE.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_EnvDTE.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_EnvDTE.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Excepciones.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Excepciones.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Excepciones.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Excepciones.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Excepciones.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Excepciones.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Excepciones.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_Excepciones.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_Excepciones.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Excepciones.dll_3" Path="[|AI_PROPPATH_DIR_PERBUILD_Excepciones.dll_3]\[|AI_PROPPATH_FILENAME_PERBUILD_Excepciones.dll_3]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Excepciones.dll_4" Path="[|AI_PROPPATH_DIR_PERBUILD_Excepciones.dll_4]\[|AI_PROPPATH_FILENAME_PERBUILD_Excepciones.dll_4]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Excepciones.pdb" Path="[|AI_PROPPATH_DIR_PERBUILD_Excepciones.pdb]\[|AI_PROPPATH_FILENAME_PERBUILD_Excepciones.pdb]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Excepciones.xml" Path="[|AI_PROPPATH_DIR_PERBUILD_Excepciones.xml]\[|AI_PROPPATH_FILENAME_PERBUILD_Excepciones.xml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_FlashControlV71.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_FlashControlV71.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_FlashControlV71.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Ionic.Zip.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Ionic.Zip.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Ionic.Zip.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MercaderSG.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_MercaderSG.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_MercaderSG.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MercaderSG.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_MercaderSG.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_MercaderSG.exe.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MercaderSG.pdb" Path="[|AI_PROPPATH_DIR_PERBUILD_MercaderSG.pdb]\[|AI_PROPPATH_FILENAME_PERBUILD_MercaderSG.pdb]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MercaderSG.resources.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MercaderSG.resources.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MercaderSG.resources.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MercaderSG.resources.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_MercaderSG.resources.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_MercaderSG.resources.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MercaderSG.xml" Path="[|AI_PROPPATH_DIR_PERBUILD_MercaderSG.xml]\[|AI_PROPPATH_FILENAME_PERBUILD_MercaderSG.xml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.MSXML.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.MSXML.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.MSXML.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.ReportViewer.Common.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.ReportViewer.Common.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ReportViewer.Common.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.ReportViewer.DataVisualization.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.ReportViewer.DataVisualization.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ReportViewer.DataVisualization.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.ReportViewer.Design.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.ReportViewer.Design.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ReportViewer.Design.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.ReportViewer.ProcessingObjectModel.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.ReportViewer.ProcessingObjectModel.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ReportViewer.ProcessingObjectModel.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.ReportViewer.WinForms.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.ReportViewer.WinForms.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ReportViewer.WinForms.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.SqlServer.Types.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.SqlServer.Types.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.SqlServer.Types.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Negocios.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Negocios.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Negocios.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Negocios.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Negocios.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Negocios.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Negocios.pdb" Path="[|AI_PROPPATH_DIR_PERBUILD_Negocios.pdb]\[|AI_PROPPATH_FILENAME_PERBUILD_Negocios.pdb]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Negocios.resources.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Negocios.resources.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Negocios.resources.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Negocios.resources.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Negocios.resources.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Negocios.resources.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Negocios.xml" Path="[|AI_PROPPATH_DIR_PERBUILD_Negocios.xml]\[|AI_PROPPATH_FILENAME_PERBUILD_Negocios.xml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Servicios.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Servicios.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Servicios.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Servicios.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Servicios.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Servicios.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Servicios.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_Servicios.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_Servicios.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Servicios.pdb" Path="[|AI_PROPPATH_DIR_PERBUILD_Servicios.pdb]\[|AI_PROPPATH_FILENAME_PERBUILD_Servicios.pdb]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Servicios.resources.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Servicios.resources.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Servicios.resources.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Servicios.resources.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Servicios.resources.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Servicios.resources.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Servicios.xml" Path="[|AI_PROPPATH_DIR_PERBUILD_Servicios.xml]\[|AI_PROPPATH_FILENAME_PERBUILD_Servicios.xml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ShockwaveFlashObjects.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_ShockwaveFlashObjects.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_ShockwaveFlashObjects.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_SqlServerSpatial140.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_SqlServerSpatial140.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_SqlServerSpatial140.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_SqlServerSpatial140.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_SqlServerSpatial140.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_SqlServerSpatial140.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_msvcr120.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_msvcr120.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_msvcr120.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_msvcr120.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_msvcr120.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_msvcr120.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_stdole.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_stdole.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_stdole.dll]" Type="2" Content="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="Datos_PrimaryOutput"/>
+    <ROW Feature_="MainFeature" Component_="Datos_References"/>
+    <ROW Feature_="MainFeature" Component_="Datos_DocumentationOutput"/>
+    <ROW Feature_="MainFeature" Component_="Datos_LocalizedResourcesOutput_enUS"/>
+    <ROW Feature_="MainFeature" Component_="Datos_LocalizedResourcesOutput_esAR"/>
+    <ROW Feature_="MainFeature" Component_="Datos_SymbolsOutput"/>
+    <ROW Feature_="MainFeature" Component_="Entidades_PrimaryOutput"/>
+    <ROW Feature_="MainFeature" Component_="Entidades_DocumentationOutput"/>
+    <ROW Feature_="MainFeature" Component_="Entidades_SymbolsOutput"/>
+    <ROW Feature_="MainFeature" Component_="Excepciones_PrimaryOutput"/>
+    <ROW Feature_="MainFeature" Component_="Excepciones_References"/>
+    <ROW Feature_="MainFeature" Component_="Excepciones_DocumentationOutput"/>
+    <ROW Feature_="MainFeature" Component_="Excepciones_SymbolsOutput"/>
+    <ROW Feature_="MainFeature" Component_="Negocios_PrimaryOutput"/>
+    <ROW Feature_="MainFeature" Component_="Negocios_References"/>
+    <ROW Feature_="MainFeature" Component_="Negocios_DocumentationOutput"/>
+    <ROW Feature_="MainFeature" Component_="Negocios_LocalizedResourcesOutput_esAR"/>
+    <ROW Feature_="MainFeature" Component_="Negocios_LocalizedResourcesOutput_enUS"/>
+    <ROW Feature_="MainFeature" Component_="Negocios_SymbolsOutput"/>
+    <ROW Feature_="MainFeature" Component_="Servicios_PrimaryOutput"/>
+    <ROW Feature_="MainFeature" Component_="Servicios_References"/>
+    <ROW Feature_="MainFeature" Component_="Servicios_DocumentationOutput"/>
+    <ROW Feature_="MainFeature" Component_="Servicios_LocalizedResourcesOutput_enUS"/>
+    <ROW Feature_="MainFeature" Component_="Servicios_LocalizedResourcesOutput_esAR"/>
+    <ROW Feature_="MainFeature" Component_="Servicios_SymbolsOutput"/>
+    <ROW Feature_="MainFeature" Component_="MercaderSG_PrimaryOutput"/>
+    <ROW Feature_="MainFeature" Component_="SHORTCUTDIR"/>
+    <ROW Feature_="MainFeature" Component_="MercaderSG_References"/>
+    <ROW Feature_="MainFeature" Component_="MercaderSG_ContentOutput_SqlServerTypes_x64"/>
+    <ROW Feature_="MainFeature" Component_="MercaderSG_ContentOutput_SqlServerTypes_x86"/>
+    <ROW Feature_="MainFeature" Component_="MercaderSG_DocumentationOutput"/>
+    <ROW Feature_="MainFeature" Component_="MercaderSG_LocalizedResourcesOutput_esAR"/>
+    <ROW Feature_="MainFeature" Component_="MercaderSG_LocalizedResourcesOutput_enUS"/>
+    <ROW Feature_="MainFeature" Component_="MercaderSG_SymbolsOutput"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="MercaderSG" Directory_="SHORTCUTDIR" Name="MERCAD~1|MercaderSG" Component_="MercaderSG_PrimaryOutput" Target="[#MercaderSG.exe]" Hotkey="0" IconIndex="0" ShowCmd="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.VsProjectComponent">
+    <ROW ProjectId="{4f1192ac-3ab2-0ea2-204f-675e1099f82c}" ProjectName="Datos" OutputGroup="PrimaryOutput" OutputFile="Datos.dll"/>
+    <ROW ProjectId="{4f1192ac-3ab2-0ea2-204f-675e1099f82c}" ProjectName="Datos" OutputGroup="References" OutputFile="Entidades.dll"/>
+    <ROW ProjectId="{4f1192ac-3ab2-0ea2-204f-675e1099f82c}" ProjectName="Datos" OutputGroup="References" OutputFile="Excepciones.dll"/>
+    <ROW ProjectId="{4f1192ac-3ab2-0ea2-204f-675e1099f82c}" ProjectName="Datos" OutputGroup="DocumentationOutput" OutputFile="Datos.xml"/>
+    <ROW ProjectId="{4f1192ac-3ab2-0ea2-204f-675e1099f82c}" ProjectName="Datos" OutputGroup="LocalizedResourcesOutput" OutputFile="Datos.resources.dll"/>
+    <ROW ProjectId="{4f1192ac-3ab2-0ea2-204f-675e1099f82c}" ProjectName="Datos" OutputGroup="LocalizedResourcesOutput" OutputFile="Datos.resources.dll_1"/>
+    <ROW ProjectId="{4f1192ac-3ab2-0ea2-204f-675e1099f82c}" ProjectName="Datos" OutputGroup="SymbolsOutput" OutputFile="Datos.pdb"/>
+    <ROW ProjectId="{5b52509a-ab15-03a6-359d-ee785ae3e857}" ProjectName="Entidades" OutputGroup="PrimaryOutput" OutputFile="Entidades.dll_1"/>
+    <ROW ProjectId="{5b52509a-ab15-03a6-359d-ee785ae3e857}" ProjectName="Entidades" OutputGroup="DocumentationOutput" OutputFile="Entidades.xml"/>
+    <ROW ProjectId="{5b52509a-ab15-03a6-359d-ee785ae3e857}" ProjectName="Entidades" OutputGroup="SymbolsOutput" OutputFile="Entidades.pdb"/>
+    <ROW ProjectId="{b80e9ed4-5221-014d-22e8-114a09922f1c}" ProjectName="Excepciones" OutputGroup="PrimaryOutput" OutputFile="Excepciones.dll_1"/>
+    <ROW ProjectId="{b80e9ed4-5221-014d-22e8-114a09922f1c}" ProjectName="Excepciones" OutputGroup="References" OutputFile="Entidades.dll_2"/>
+    <ROW ProjectId="{b80e9ed4-5221-014d-22e8-114a09922f1c}" ProjectName="Excepciones" OutputGroup="DocumentationOutput" OutputFile="Excepciones.xml"/>
+    <ROW ProjectId="{b80e9ed4-5221-014d-22e8-114a09922f1c}" ProjectName="Excepciones" OutputGroup="SymbolsOutput" OutputFile="Excepciones.pdb"/>
+    <ROW ProjectId="{fb0ae928-4829-0157-33c8-97ece2ecce83}" ProjectName="Negocios" OutputGroup="PrimaryOutput" OutputFile="Negocios.dll"/>
+    <ROW ProjectId="{fb0ae928-4829-0157-33c8-97ece2ecce83}" ProjectName="Negocios" OutputGroup="References" OutputFile="Datos.dll_1"/>
+    <ROW ProjectId="{fb0ae928-4829-0157-33c8-97ece2ecce83}" ProjectName="Negocios" OutputGroup="References" OutputFile="Entidades.dll_3"/>
+    <ROW ProjectId="{fb0ae928-4829-0157-33c8-97ece2ecce83}" ProjectName="Negocios" OutputGroup="References" OutputFile="Excepciones.dll_2"/>
+    <ROW ProjectId="{fb0ae928-4829-0157-33c8-97ece2ecce83}" ProjectName="Negocios" OutputGroup="References" OutputFile="Servicios.dll"/>
+    <ROW ProjectId="{fb0ae928-4829-0157-33c8-97ece2ecce83}" ProjectName="Negocios" OutputGroup="DocumentationOutput" OutputFile="Negocios.xml"/>
+    <ROW ProjectId="{fb0ae928-4829-0157-33c8-97ece2ecce83}" ProjectName="Negocios" OutputGroup="LocalizedResourcesOutput" OutputFile="Negocios.resources.dll"/>
+    <ROW ProjectId="{fb0ae928-4829-0157-33c8-97ece2ecce83}" ProjectName="Negocios" OutputGroup="LocalizedResourcesOutput" OutputFile="Negocios.resources.dll_1"/>
+    <ROW ProjectId="{fb0ae928-4829-0157-33c8-97ece2ecce83}" ProjectName="Negocios" OutputGroup="SymbolsOutput" OutputFile="Negocios.pdb"/>
+    <ROW ProjectId="{27379826-7c19-046b-3763-0a131d7f05af}" ProjectName="Servicios" OutputGroup="PrimaryOutput" OutputFile="Servicios.dll_1"/>
+    <ROW ProjectId="{27379826-7c19-046b-3763-0a131d7f05af}" ProjectName="Servicios" OutputGroup="References" OutputFile="Datos.dll_2"/>
+    <ROW ProjectId="{27379826-7c19-046b-3763-0a131d7f05af}" ProjectName="Servicios" OutputGroup="References" OutputFile="Entidades.dll_4"/>
+    <ROW ProjectId="{27379826-7c19-046b-3763-0a131d7f05af}" ProjectName="Servicios" OutputGroup="References" OutputFile="Excepciones.dll_3"/>
+    <ROW ProjectId="{27379826-7c19-046b-3763-0a131d7f05af}" ProjectName="Servicios" OutputGroup="DocumentationOutput" OutputFile="Servicios.xml"/>
+    <ROW ProjectId="{27379826-7c19-046b-3763-0a131d7f05af}" ProjectName="Servicios" OutputGroup="LocalizedResourcesOutput" OutputFile="Servicios.resources.dll"/>
+    <ROW ProjectId="{27379826-7c19-046b-3763-0a131d7f05af}" ProjectName="Servicios" OutputGroup="LocalizedResourcesOutput" OutputFile="Servicios.resources.dll_1"/>
+    <ROW ProjectId="{27379826-7c19-046b-3763-0a131d7f05af}" ProjectName="Servicios" OutputGroup="SymbolsOutput" OutputFile="Servicios.pdb"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="PrimaryOutput" OutputFile="MercaderSG.exe" OutputFileShortcut="MercaderSG"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="PrimaryOutput" OutputFile="MercaderSG.exe.config"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="CrystalDecisions.CrystalReports.Engine.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="CrystalDecisions.ReportSource.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="CrystalDecisions.Shared.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="CrystalDecisions.Windows.Forms.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="Entidades.dll_5"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="Excepciones.dll_4"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="FlashControlV71.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="Ionic.Zip.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="Microsoft.ReportViewer.Common.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="Microsoft.ReportViewer.DataVisualization.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="Microsoft.ReportViewer.Design.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="Microsoft.ReportViewer.ProcessingObjectModel.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="Microsoft.ReportViewer.WinForms.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="Microsoft.SqlServer.Types.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="Negocios.dll_1"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="Servicios.dll_2"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="Datos.dll_3"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="CrystalDecisions.ReportAppServer.DataDefModel.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="CrystalDecisions.ReportAppServer.ClientDoc.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="CrystalDecisions.ReportAppServer.ReportDefModel.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="CrystalDecisions.ReportAppServer.Controllers.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="CrystalDecisions.ReportAppServer.CommLayer.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="CrystalDecisions.ReportAppServer.DataSetConversion.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="CrystalDecisions.ReportAppServer.Prompting.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="CrystalDecisions.ReportAppServer.XmlSerialize.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="CrystalDecisions.ReportAppServer.CubeDefModel.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="CrystalDecisions.ReportAppServer.ObjectFactory.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="CrystalDecisions.ReportAppServer.CommonObjectModel.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="ShockwaveFlashObjects.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="EnvDTE.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="CrystalDecisions.ReportAppServer.CommonControls.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="stdole.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="References" OutputFile="Microsoft.MSXML.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="ContentOutput" OutputFile="msvcr120.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="ContentOutput" OutputFile="SqlServerSpatial140.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="ContentOutput" OutputFile="msvcr120.dll_1"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="ContentOutput" OutputFile="SqlServerSpatial140.dll_1"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="DocumentationOutput" OutputFile="MercaderSG.xml"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="LocalizedResourcesOutput" OutputFile="MercaderSG.resources.dll"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="LocalizedResourcesOutput" OutputFile="MercaderSG.resources.dll_1"/>
+    <ROW ProjectId="{2a6a8ec0-6e20-058e-0b4b-b684f4ed1655}" ProjectName="MercaderSG" OutputGroup="SymbolsOutput" OutputFile="MercaderSG.pdb"/>
+  </COMPONENT>
+</DOCUMENT>

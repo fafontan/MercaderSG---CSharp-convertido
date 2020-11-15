@@ -1,0 +1,903 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2A6A8EC0-6E20-058E-0B4B-B684F4ED1655}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MercaderSG.SubMain</StartupObject>
+    <RootNamespace>MercaderSG</RootNamespace>
+    <AssemblyName>MercaderSG</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <DefaultItemExcludes>$(DefaultItemExcludes);$(ProjectDir)**\*.vb</DefaultItemExcludes>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>bin\Debug\MercaderSG.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>bin\Release\MercaderSG.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ApiIconos.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\..\..\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Access, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\MyNamespace.Dynamic.Designer.cs" />
+    <Compile Include="My Project\MyNamespace.Static.1.Designer.cs" />
+    <Compile Include="My Project\MyNamespace.Static.2.Designer.cs" />
+    <Compile Include="My Project\MyNamespace.Static.3.Designer.cs" />
+    <Compile Include="Comercial\NotaPedido\ConsultarNP.Designer.cs">
+      <DependentUpon>ConsultarNP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comercial\NotaPedido\ConsultarNP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comercial\NotaPedido\GestionNP.Designer.cs">
+      <DependentUpon>GestionNP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comercial\NotaPedido\GestionNP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comercial\NotaPedido\NotaPedidoRP.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NotaPedidoRP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Comercial\NotaPedido\UltimaNPRepor.Designer.cs">
+      <DependentUpon>UltimaNPRepor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comercial\NotaPedido\UltimaNPRepor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comercial\NotaVenta\ConsultarNV.Designer.cs">
+      <DependentUpon>ConsultarNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comercial\NotaVenta\ConsultarNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comercial\NotaVenta\GestionNV.Designer.cs">
+      <DependentUpon>GestionNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comercial\NotaVenta\GestionNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comercial\NotaVenta\NotaVentaRP.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NotaVentaRP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Comercial\NotaVenta\Remito\ConsultarRemito.Designer.cs">
+      <DependentUpon>ConsultarRemito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comercial\NotaVenta\Remito\ConsultarRemito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comercial\NotaVenta\Remito\RemitoRP.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RemitoRP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Comercial\NotaVenta\UltimaNVRepor.Designer.cs">
+      <DependentUpon>UltimaNVRepor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comercial\NotaVenta\UltimaNVRepor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlUsuario\FiltroCompleto.Designer.cs">
+      <DependentUpon>FiltroCompleto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUsuario\FiltroCompleto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUsuario\FiltroCriticidad.Designer.cs">
+      <DependentUpon>FiltroCriticidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUsuario\FiltroCriticidad.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUsuario\FiltroFecha.Designer.cs">
+      <DependentUpon>FiltroFecha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUsuario\FiltroFecha.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlUsuario\FiltroUsuario.Designer.cs">
+      <DependentUpon>FiltroUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlUsuario\FiltroUsuario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ArchivoIdioma.es-AR.Designer.cs">
+      <DependentUpon>ArchivoIdioma.es-AR.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ArchivoIdioma.en-US.Designer.cs">
+      <DependentUpon>ArchivoIdioma.en-US.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="GeneralDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GeneralDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralDS.cs">
+      <DependentUpon>GeneralDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Gestión\AltaLocalidad.Designer.cs">
+      <DependentUpon>AltaLocalidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestión\AltaLocalidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchivoIdioma.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ArchivoIdioma.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Gestión\GestionProducto\AltaProducto.Designer.cs">
+      <DependentUpon>AltaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestión\GestionProducto\AltaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestión\GestionProducto\GestionProducto.Designer.cs">
+      <DependentUpon>GestionProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestión\GestionProducto\GestionProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestión\GestionProducto\ModificarPrecio.Designer.cs">
+      <DependentUpon>ModificarPrecio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestión\GestionProducto\ModificarPrecio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestión\GestionProducto\ModificarProducto.Designer.cs">
+      <DependentUpon>ModificarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestión\GestionProducto\ModificarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestión\GestionProducto\ModificarStock.Designer.cs">
+      <DependentUpon>ModificarStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestión\GestionProducto\ModificarStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestión\GestionProveedores\AltaProveedor.Designer.cs">
+      <DependentUpon>AltaProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestión\GestionProveedores\AltaProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestión\GestionProveedores\EliminarTelProveedor.Designer.cs">
+      <DependentUpon>EliminarTelProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestión\GestionProveedores\EliminarTelProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestión\GestionProveedores\GestionProveedor.Designer.cs">
+      <DependentUpon>GestionProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestión\GestionProveedores\GestionProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestión\GestionProveedores\ModificarProveedor.Designer.cs">
+      <DependentUpon>ModificarProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestión\GestionProveedores\ModificarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\CambiarContrasena.Designer.cs">
+      <DependentUpon>CambiarContrasena.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\CambiarContrasena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comercial\BuscarProducto.Designer.cs">
+      <DependentUpon>BuscarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comercial\BuscarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comercial\NotaPedido\BuscarProveedor.Designer.cs">
+      <DependentUpon>BuscarProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comercial\NotaPedido\BuscarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comercial\NotaPedido\NotaPedido.Designer.cs">
+      <DependentUpon>NotaPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comercial\NotaPedido\NotaPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comercial\NotaVenta\BuscarCliente.Designer.cs">
+      <DependentUpon>BuscarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comercial\NotaVenta\BuscarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comercial\NotaVenta\NotaVenta.Designer.cs">
+      <DependentUpon>NotaVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comercial\NotaVenta\NotaVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\PantallaError\ResultadoFamPatUsu.Designer.cs">
+      <DependentUpon>ResultadoFamPatUsu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\PantallaError\ResultadoFamPatUsu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\DesbloquearUsuario.Designer.cs">
+      <DependentUpon>DesbloquearUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\DesbloquearUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extension.cs" />
+    <Compile Include="BarraProgreso.Designer.cs">
+      <DependentUpon>BarraProgreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarraProgreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\GestionFamilia\AltaFamilia.Designer.cs">
+      <DependentUpon>AltaFamilia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\GestionFamilia\AltaFamilia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\GestionFamilia\GestionFamilia.Designer.cs">
+      <DependentUpon>GestionFamilia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\GestionFamilia\GestionFamilia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\GestionFamilia\ModificarFamilia.Designer.cs">
+      <DependentUpon>ModificarFamilia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\GestionFamilia\ModificarFamilia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Backup.Designer.cs">
+      <DependentUpon>Backup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Backup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestión\GestionClientes\AltaCliente.Designer.cs">
+      <DependentUpon>AltaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestión\GestionClientes\AltaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestión\GestionClientes\EliminarTelCliente.Designer.cs">
+      <DependentUpon>EliminarTelCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestión\GestionClientes\EliminarTelCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestión\GestionClientes\GestionCliente.Designer.cs">
+      <DependentUpon>GestionCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestión\GestionClientes\GestionCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestión\GestionClientes\ModificarCliente.Designer.cs">
+      <DependentUpon>ModificarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestión\GestionClientes\ModificarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\GestionUsuarios\AltaUsuario.Designer.cs">
+      <DependentUpon>AltaUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\GestionUsuarios\AltaUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\GestionUsuarios\EliminarTelUsuario.Designer.cs">
+      <DependentUpon>EliminarTelUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\GestionUsuarios\EliminarTelUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\GestionUsuarios\GestionUsuario.Designer.cs">
+      <DependentUpon>GestionUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\GestionUsuarios\GestionUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\GestionUsuarios\ModificarUsuario.Designer.cs">
+      <DependentUpon>ModificarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\GestionUsuarios\ModificarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.cs" />
+    <Compile Include="My Project\Application.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Bitacora.Designer.cs">
+      <DependentUpon>Bitacora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Bitacora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\FamiliaPatente.Designer.cs">
+      <DependentUpon>FamiliaPatente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\FamiliaPatente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\UsuarioFamilia.Designer.cs">
+      <DependentUpon>UsuarioFamilia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\UsuarioFamilia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Restore.Designer.cs">
+      <DependentUpon>Restore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\Restore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\UsuarioPatente.Designer.cs">
+      <DependentUpon>UsuarioPatente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\UsuarioPatente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\ResetearContrasena.Designer.cs">
+      <DependentUpon>ResetearContrasena.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\ResetearContrasena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMain.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Comercial\NotaPedido\ConsultarNP.resx">
+      <DependentUpon>ConsultarNP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comercial\NotaPedido\GestionNP.resx">
+      <DependentUpon>GestionNP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comercial\NotaPedido\NotaPedidoRP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>NotaPedidoRP.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comercial\NotaPedido\UltimaNPRepor.resx">
+      <DependentUpon>UltimaNPRepor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comercial\NotaVenta\ConsultarNV.resx">
+      <DependentUpon>ConsultarNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comercial\NotaVenta\GestionNV.resx">
+      <DependentUpon>GestionNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comercial\NotaVenta\NotaVentaRP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>NotaVentaRP.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comercial\NotaVenta\Remito\ConsultarRemito.resx">
+      <DependentUpon>ConsultarRemito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comercial\NotaVenta\Remito\RemitoRP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RemitoRP.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comercial\NotaVenta\UltimaNVRepor.resx">
+      <DependentUpon>UltimaNVRepor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUsuario\FiltroCompleto.resx">
+      <DependentUpon>FiltroCompleto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUsuario\FiltroCriticidad.resx">
+      <DependentUpon>FiltroCriticidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUsuario\FiltroFecha.resx">
+      <DependentUpon>FiltroFecha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlUsuario\FiltroUsuario.resx">
+      <DependentUpon>FiltroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchivoIdioma.es-AR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ArchivoIdioma.es-AR.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>MercaderSG.My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchivoIdioma.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ArchivoIdioma.en-US.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>MercaderSG.My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestión\AltaLocalidad.resx">
+      <DependentUpon>AltaLocalidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchivoIdioma.resx">
+      <CustomToolNamespace>MercaderSG.My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ArchivoIdioma.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BarraProgreso.resx">
+      <DependentUpon>BarraProgreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestión\GestionProducto\AltaProducto.resx">
+      <DependentUpon>AltaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestión\GestionProducto\GestionProducto.resx">
+      <DependentUpon>GestionProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestión\GestionProducto\ModificarPrecio.resx">
+      <DependentUpon>ModificarPrecio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestión\GestionProducto\ModificarProducto.resx">
+      <DependentUpon>ModificarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestión\GestionProducto\ModificarStock.resx">
+      <DependentUpon>ModificarStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestión\GestionProveedores\AltaProveedor.resx">
+      <DependentUpon>AltaProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestión\GestionProveedores\EliminarTelProveedor.resx">
+      <DependentUpon>EliminarTelProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestión\GestionProveedores\GestionProveedor.resx">
+      <DependentUpon>GestionProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestión\GestionProveedores\ModificarProveedor.resx">
+      <DependentUpon>ModificarProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\CambiarContrasena.resx">
+      <DependentUpon>CambiarContrasena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comercial\BuscarProducto.resx">
+      <DependentUpon>BuscarProducto.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comercial\NotaPedido\BuscarProveedor.resx">
+      <DependentUpon>BuscarProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comercial\NotaPedido\NotaPedido.resx">
+      <DependentUpon>NotaPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comercial\NotaVenta\BuscarCliente.resx">
+      <DependentUpon>BuscarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comercial\NotaVenta\NotaVenta.resx">
+      <DependentUpon>NotaVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\PantallaError\ResultadoFamPatUsu.resx">
+      <DependentUpon>ResultadoFamPatUsu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\DesbloquearUsuario.resx">
+      <DependentUpon>DesbloquearUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\GestionFamilia\AltaFamilia.resx">
+      <DependentUpon>AltaFamilia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\GestionFamilia\GestionFamilia.resx">
+      <DependentUpon>GestionFamilia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\GestionFamilia\ModificarFamilia.resx">
+      <DependentUpon>ModificarFamilia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Backup.resx">
+      <DependentUpon>Backup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestión\GestionClientes\AltaCliente.resx">
+      <DependentUpon>AltaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestión\GestionClientes\EliminarTelCliente.resx">
+      <DependentUpon>EliminarTelCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestión\GestionClientes\GestionCliente.resx">
+      <DependentUpon>GestionCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestión\GestionClientes\ModificarCliente.resx">
+      <DependentUpon>ModificarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\GestionUsuarios\AltaUsuario.resx">
+      <DependentUpon>AltaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\GestionUsuarios\EliminarTelUsuario.resx">
+      <DependentUpon>EliminarTelUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\GestionUsuarios\GestionUsuario.resx">
+      <DependentUpon>GestionUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\GestionUsuarios\ModificarUsuario.resx">
+      <DependentUpon>ModificarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>MercaderSG.My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Bitacora.resx">
+      <DependentUpon>Bitacora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\FamiliaPatente.resx">
+      <DependentUpon>FamiliaPatente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\UsuarioFamilia.resx">
+      <DependentUpon>UsuarioFamilia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\Restore.resx">
+      <DependentUpon>Restore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\UsuarioPatente.resx">
+      <DependentUpon>UsuarioPatente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\ResetearContrasena.resx">
+      <DependentUpon>ResetearContrasena.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GeneralDS.xsc">
+      <DependentUpon>GeneralDS.xsd</DependentUpon>
+    </None>
+    <None Include="GeneralDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GeneralDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="GeneralDS.xss">
+      <DependentUpon>GeneralDS.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>MercaderSG.My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{5B52509A-AB15-03A6-359D-EE785AE3E857}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Excepciones\Excepciones.csproj">
+      <Project>{B80E9ED4-5221-014D-22E8-114A09922F1C}</Project>
+      <Name>Excepciones</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Negocios\Negocios.csproj">
+      <Project>{FB0AE928-4829-0157-33C8-97ECE2ECCE83}</Project>
+      <Name>Negocios</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Servicios\Servicios.csproj">
+      <Project>{27379826-7C19-046B-3763-0A131D7F05AF}</Project>
+      <Name>Servicios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\ExcelE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogInE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClienteE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProveedorE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CambiarPassE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SalirE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RestoreE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IdiomaE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BitacoraE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Permisos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UltimoE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SiguienteE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnteriorE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrimeroE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RecargarE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StockE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrecioE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MasOpcionesE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InformationE32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdvertenciaE32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InfoDocE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuscarE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DesbloquearG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DesbloImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FamiliaE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NotaE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GestionNV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoPatentes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoPatentes1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RestoreE1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newPage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CancelBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\us.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\package.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResetearPass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resetear48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calcular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ApiIconos.ico" />
+    <Content Include="IcoApi.ico" />
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
